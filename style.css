@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.upper-header {
+    background-color: #8c44cc;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 22px;
+    font-style: italic;
+    color: white;
+}
+
+.upper-header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.sale-day,
+.help {
+    background-color: #8c44cc;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
+}
+
+.divider {
+    height: 20px;
+    width: 3px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+.header {
+    background-color: #ead0b9;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-btns {
+    display: flex;
+}
+
+.btn {
+    padding: 8px 15px;
+    background-color: #8c44cc;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+}
+
+.search-text {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-btn {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.shopping-bag {
+    width: 30px;
+    height: 30px;
+}
+
+.cards-title {
+    margin: 20px;
+    font-weight: 600;
+}
+
+.cards-portion {
+    margin: 0 20px 20px;
+    background-color: white;
+}
+
+.card-body {
+    display: flex;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-text {
+    margin-left: 20px;
+}
+
+.card-text-1 {
+    color: #cb633b;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.cloud {
+    display: flex;
+    align-items: center;
+}
+
+.text-1,
+.text-2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.divider-2 {
+    height: 30px;
+    width: 3px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+.card-text-2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.card-text-3,
+.card-text-4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.linned {
+    text-decoration: line-through;
+    color: #9b8c75;
+}
+
+.card-text-5 {
+    font-size: 18px;
+    font-weight: 600;
+}
